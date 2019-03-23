@@ -2,6 +2,7 @@ const express = require('express')
 const consola = require('consola')
 const { Nuxt, Builder } = require('nuxt')
 const app = express()
+const port = process.env.PORT || 3000
 
 // Import and Set Nuxt.js options
 let config = require('../nuxt.config.js')
@@ -25,7 +26,7 @@ async function start() {
   app.use(nuxt.render)
 
   // Listen the server
-  app.listen(port, host)
+  app.listen(port, '0.0.0.0')
   consola.ready({
     message: `Server listening on http://${host}:${port}`,
     badge: true
