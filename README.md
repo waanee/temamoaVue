@@ -1,6 +1,6 @@
 # temamoaVue
 
-> My phenomenal Nuxt.js project
+> nuxt SPA app test
 
 ## Build Setup
 
