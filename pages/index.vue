@@ -5,7 +5,9 @@
       <h1 class="title">
         temamoaVue
       </h1>
-      이제 개발환경이 구축 되었다!
+      이제 개발환경이 구축 되었다!<br>
+      <nuxt-link to="/about">about</nuxt-link>
+      <nuxt/>
     </div>
   </section>
 </template>
